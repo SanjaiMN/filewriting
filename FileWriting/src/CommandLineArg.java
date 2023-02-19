@@ -11,7 +11,7 @@ public class CommandLineArg
 		RuntimeMXBean runtimeMXBean = ManagementFactory.getRuntimeMXBean();
 		List<String> vmOptions = runtimeMXBean.getInputArguments();
 		Map<String,String> map = listtomap(vmOptions);
-		System.out.println("username" + map.get("username")+"and password="+map.get("password"));
+		System.out.println("username:" + map.get("username")+"and password="+map.get("password"));
 		
 //		String name = System.getProperties().getProperty("stack");
 		System.out.println("VM options: " + map);

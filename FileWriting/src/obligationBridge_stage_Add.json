@@ -1,0 +1,46 @@
+{
+  "event": "ADDED",
+  "fqResourceName": "com.hp.cloud.stratus.commercemgt.model.Benefit",
+  "resourceId": "6257729bd4b3214e8b127e17",
+  "tenantResourceId": "8e964473-26bc-4202-a323-9db4115eb6cf",
+  "correlationId": "49532e1feff779e91c6b78a41794b8a3",
+  "eventAttributeValueMap": {
+    "deviceCloudId": {
+      "dataType": "String",
+      "stringValue": "AQAAAAGGUbUr9QAAAAHW5oTt"
+    },
+    "level": {
+      "dataType": "String",
+      "stringValue": "DEVICE"
+    },
+    "tenantId": {
+      "dataType": "String",
+      "stringValue": "8fed851d-6d66-4453-89f9-b4389491f2c4"
+    },
+    "offerId": {
+      "dataType": "String",
+      "stringValue": "8fed851d-6d66-4453-89f9-b4389491f2c4"
+    },
+    "ownerTenantId": {
+      "dataType": "String",
+      "stringValue": "8fed851d-6d66-4453-89f9-b4389491f2c4"
+    },
+    "serviceId": {
+      "dataType": "String",
+      "stringValue": "ws-hp.com/warranty"
+    },
+    "userId": {
+      "dataType": "String",
+      "stringValue": "6257729bd4b3214e8b127e17"
+    },
+    "programId": {
+      "dataType": "String",
+      "stringValue": "61a65893-62c2-45cb-a0f7-c1e22108eab7"
+    },
+    "status": {
+      "dataType": "String",
+      "stringValue": "ENABLED"
+    }
+  },
+  "resource": "com.hp.cloud.stratus.commercemgt.model.Benefit"
+}
