@@ -16,7 +16,7 @@ public class ChangeStringValue
         {
         	//Getting the file contents from the json and parsing it.
             String jsonStr = new String(Files.readAllBytes(Paths.get(input)));
-            JsonElement jsonElement = new JsonParser().parse(jsonStr);
+            JsonElement jsonElement =JsonParser.parseString(jsonStr);
             //initializing the json object as a tree head.
             json = jsonElement.getAsJsonObject();
         } 
@@ -33,7 +33,7 @@ public class ChangeStringValue
         	//changing the value of deviceCloudID.
             JsonObject deviceCloudIdObj = eventAttributeValueMap.getAsJsonObject("deviceCloudId");
             if (deviceCloudIdObj != null) {
-                deviceCloudIdObj.addProperty("stringValue", "AQAAAAGGUbUr9QAAAAHW5oTt");
+                deviceCloudIdObj.addProperty("stringValue", "AQAAAAGGUbUr7QAAAAHW5oTt");
             }
         }
 
