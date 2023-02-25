@@ -10,12 +10,24 @@ public class CommandLineArg
 	{
 		RuntimeMXBean runtimeMXBean = ManagementFactory.getRuntimeMXBean();
 		List<String> vmOptions = runtimeMXBean.getInputArguments();
+		
 		Map<String,String> map = listtomap(vmOptions);
-		System.out.println("username:" + map.get("username")+"and password="+map.get("password"));
 		
 //		String name = System.getProperties().getProperty("stack");
-		System.out.println("VM options: " + map);
-       
+		String username = null,password = null;
+		try 
+		{
+			/*if you want username inside the program.you can just call map.get("username");
+			this key should be same to which passed in VM arguments
+			(-Dusername=sanjai,-Dpassword=sanjai if you gave -Duser=sanjai then use map.get("user");*/
+			username=map.get("username");
+			password=map.get("password");
+		}
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+       System.out.println(username+" "+password);
     }
 	public static Map<String,String> listtomap(List<String> list) 
 	{
