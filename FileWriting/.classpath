@@ -9,5 +9,10 @@
 	<classpathentry kind="lib" path="/FileStringchanger/jackson-core-2.14.2.jar"/>
 	<classpathentry kind="lib" path="/FileStringchanger/jackson-databind-2.14.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/sanja/Downloads/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="selenium-server-4.8.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sanja/Downloads/ashot-1.5.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sanja/Downloads/testng-7.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sanja/Downloads/java-client-8.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sanja/Downloads/commons-io-2.11.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
